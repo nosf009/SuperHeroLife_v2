@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645e8177b97a4af994a2b1c09736893e, type: 3}
+  m_Name: 1-JumpedOnGrenade
+  m_EditorClassIdentifier: 
+  ChoiceTree:
+    Name: Prologue
+    TimelineScene: {fileID: 11400000, guid: 30cdf52300994cc46a0d9a15d06054a9, type: 2}
+    OverrideScenario: {fileID: 0}
+    OnSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    ChildChoices:
+    - Name: Throw grenade back at criminal
+      TimelineScene: {fileID: 11400000, guid: 83fe14e1226ed8a42aec907c8909e191, type: 2}
+      OverrideScenario: {fileID: 0}
+      OnSelected:
+        m_PersistentCalls:
+          m_Calls: []
+      ChildChoices: []
+    - Name: Throw grenade at clerk
+      TimelineScene: {fileID: 11400000, guid: d522fc262d42891459650ff283611e5c, type: 2}
+      OverrideScenario: {fileID: 11400000, guid: e3a759e7d96cb7945a5a61545d1df3bd, type: 2}
+      OnSelected:
+        m_PersistentCalls:
+          m_Calls: []
+      ChildChoices: []

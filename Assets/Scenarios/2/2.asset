@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645e8177b97a4af994a2b1c09736893e, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  ChoiceTree:
+    Name: 
+    TimelineScene: {fileID: 11400000, guid: 2ce729de02d795c48947db77c0431463, type: 2}
+    OverrideScenario: {fileID: 0}
+    OnSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    ChildChoices:
+    - Name: Escape through the window
+      TimelineScene: {fileID: 11400000, guid: 6458fdd24d4844c41b3c03c350e79c21, type: 2}
+      OverrideScenario: {fileID: 0}
+      OnSelected:
+        m_PersistentCalls:
+          m_Calls: []
+      ChildChoices: []
+    - Name: Get in the wardrobe
+      TimelineScene: {fileID: 11400000, guid: bf668a474aed9f44aad35171f45ac149, type: 2}
+      OverrideScenario: {fileID: 0}
+      OnSelected:
+        m_PersistentCalls:
+          m_Calls: []
+      ChildChoices:
+      - Name: Scare her
+        TimelineScene: {fileID: 11400000, guid: de3590ee8c766ca46acd20b71e61c652, type: 2}
+        OverrideScenario: {fileID: 0}
+        OnSelected:
+          m_PersistentCalls:
+            m_Calls: []
+        ChildChoices: []
+      - Name: Escape through the window
+        TimelineScene: {fileID: 11400000, guid: 6458fdd24d4844c41b3c03c350e79c21, type: 2}
+        OverrideScenario: {fileID: 0}
+        OnSelected:
+          m_PersistentCalls:
+            m_Calls: []
+        ChildChoices: []

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645e8177b97a4af994a2b1c09736893e, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  ChoiceTree:
+    Name: 
+    TimelineScene: {fileID: 11400000, guid: bc0c0d95a71cba148a026789b097deb0, type: 2}
+    OverrideScenario: {fileID: 0}
+    OnSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    ChildChoices:
+    - Name: Give back the purse
+      TimelineScene: {fileID: 11400000, guid: 408eacd05c0e28844917a39ff6ff3186, type: 2}
+      OverrideScenario: {fileID: 0}
+      OnSelected:
+        m_PersistentCalls:
+          m_Calls: []
+      ChildChoices:
+      - Name: Act cool and walk away
+        TimelineScene: {fileID: 11400000, guid: c948297ba3a028f48b692e64f9b4b7e2, type: 2}
+        OverrideScenario: {fileID: 0}
+        OnSelected:
+          m_PersistentCalls:
+            m_Calls: []
+        ChildChoices: []
+      - Name: Bring her home
+        TimelineScene: {fileID: 11400000, guid: 7097cbbc5fa21bc478cb0251f215fc05, type: 2}
+        OverrideScenario: {fileID: 0}
+        OnSelected:
+          m_PersistentCalls:
+            m_Calls: []
+        ChildChoices: []
+    - Name: Take it home
+      TimelineScene: {fileID: 11400000, guid: bb2f32482db3ab94998acc12a901c35f, type: 2}
+      OverrideScenario: {fileID: 0}
+      OnSelected:
+        m_PersistentCalls:
+          m_Calls: []
+      ChildChoices: []
