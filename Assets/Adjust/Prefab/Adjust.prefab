@@ -47,6 +47,6 @@ MonoBehaviour:
   eventBuffering: 0
   sendInBackground: 0
   launchDeferredDeeplink: 1
-  appToken: 2zw6pmo3aups--
+  appToken: 2zw6pmo3aups
   logLevel: 3
   environment: 1
